@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+xkyss:
+  weixin:
+    tp:
+      secret: SECRET
+      corp-id: CORP_ID
+      token: TOKEN
+      server-url: SERVER_URL

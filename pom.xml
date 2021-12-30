@@ -12,6 +12,7 @@
 
     <modules>
         <module>xkyss-spring-boot-starter-weixin</module>
+        <module>xkyss-spring-boot-sample-weixin</module>
     </modules>
 
     <parent>
@@ -48,14 +49,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- xkyss -->
             <dependency>
-                <groupId>com.xkyii.xktool</groupId>
-                <artifactId>xktool-spring-boot-ext</artifactId>
+                <groupId>com.xkyss</groupId>
+                <artifactId>xkyss-weixin</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!-- xkyss.boot -->
             <dependency>
-                <groupId>com.xkyii.xktool</groupId>
-                <artifactId>xktool-spring-boot-web</artifactId>
+                <groupId>com.xkyss.boot</groupId>
+                <artifactId>xkyss-spring-boot-starter-weixin</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
