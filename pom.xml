@@ -7,8 +7,12 @@
     <name>xkyss-boot :: Parent</name>
     <groupId>com.xkyss.boot</groupId>
     <artifactId>xkyss.boot</artifactId>
-    <version>2021.0.1</version>
+    <version>2021.0.2</version>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>xkyss-spring-boot-starter-weixin</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
